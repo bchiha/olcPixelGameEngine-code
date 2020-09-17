@@ -14,4 +14,4 @@ A collection of my self made code using the olcPixelGameEngine
 <img src="/images/olcFourierEpicycles.png" alt="olcFourierEpicycles" width="400">
 
 - **olcFourierEpicyclesXY.cpp** Using Fourier Transforms to draw a picture with Epicycles with separte X and Y plots.
-<img src="/images/olcFourierEpicycles.png" alt="olcFourierEpicyclesXY" width="400">
+<img src="/images/olcFourierEpicyclesXY.png" alt="olcFourierEpicyclesXY" width="400">
