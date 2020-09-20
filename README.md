@@ -15,3 +15,6 @@ A collection of my self made code using the olcPixelGameEngine
 
 - **olcFourierEpicyclesXY.cpp** Using Fourier Transforms to draw a picture with Epicycles with separte X and Y plots.
 <img src="/images/olcFourierEpicycles.png" alt="olcFourierEpicyclesXY" width="400">
+
+- **olcMineSweeper.cpp** Mine Sweeper using the Pixel Game Engine.  Left mouse button reveals, Right mouse button flags
+<img src="/images/olcMineSweeper.png" alt="olcMineSweeper" width="400">
