@@ -18,3 +18,6 @@ A collection of my self made code using the olcPixelGameEngine
 
 - **olcMineSweeper.cpp** Mine Sweeper using the Pixel Game Engine.  Left mouse button reveals, Right mouse button flags
 <img src="/images/olcMineSweeper.png" alt="olcMineSweeper" width="400">
+
+- **olcCardioid.cpp** Cardioid generations with increasing factor size.  This creates many interesting patterns.  Move the mouse to change number of points from 0 to 200
+<img src="/images/olcCardioid.png" alt="olcCardioid" width="400">
