@@ -21,3 +21,6 @@ A collection of my self made code using the olcPixelGameEngine
 
 - **olcCardioid.cpp** Cardioid generations with increasing factor size.  This creates many interesting patterns.  Move the mouse to change number of points from 0 to 200
 <img src="/images/olcCardioid.png" alt="olcCardioid" width="400">
+
+- **olcMetaballs.cpp** Metaballs are organic-looking n-dimensional isosurfaces, characterised by their ability to meld together when in close proximity to create single, contiguous objects.
+<img src="/images/olcMetaballs.png" alt="olcMetaballs" width="400">
