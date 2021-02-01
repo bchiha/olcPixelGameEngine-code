@@ -24,3 +24,6 @@ A collection of my self made code using the olcPixelGameEngine
 
 - **olcMetaballs.cpp** Metaballs are organic-looking n-dimensional isosurfaces, characterised by their ability to meld together when in close proximity to create single, contiguous objects.
 <img src="/images/olcMetaballs.png" alt="olcMetaballs" width="400">
+
+- **olcCirclePacking.cpp** In geometry, circle packing is the study of the arrangement of circles (of equal or varying sizes) on a given surface such that no overlapping occurs and so that no circle can be enlarged without creating an overlap.  This program places circle over a PNG file where the colour white is shown.
+<img src="/images/olcCirclePacking.png" alt="olcCirclePacking" width="400">
