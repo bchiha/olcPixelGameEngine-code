@@ -27,3 +27,6 @@ A collection of my self made code using the olcPixelGameEngine
 
 - **olcCirclePacking.cpp** In geometry, circle packing is the study of the arrangement of circles (of equal or varying sizes) on a given surface such that no overlapping occurs and so that no circle can be enlarged without creating an overlap.  This program places circle over a PNG file where the colour white is shown.
 <img src="/images/olcCirclePacking.png" alt="olcCirclePacking" width="400">
+
+- **olcCirclePackingPic.cpp** Circle Packing routine as above but using a picture pixel colour to colour each circle.  It makes a nice looking image.
+<img src="/images/olcCirclePackingPic.png" alt="olcCirclePackingPic" width="400">

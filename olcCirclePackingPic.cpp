@@ -10,18 +10,17 @@ struct sCircle
 };
 
 // Override base class with your custom functionality
-class olcCirclePacking : public olc::PixelGameEngine
+class olcCirclePackingPic : public olc::PixelGameEngine
 {
 public:
-    olcCirclePacking()
+    olcCirclePackingPic()
     {
         // Name you application
-        sAppName = "Circle Packing";
+        sAppName = "Circle Packing of Picture";
     }
 
 private:
     std::vector<sCircle>  vCircles;
-    std::vector<olc::vi2d> vSpots;
     float fInitRadius = 0.0f;
     olc::Sprite *sprBG;
 
@@ -70,19 +69,7 @@ public:
         // Called once at the start, so create things here
         srand(time(NULL));
 
-        sprBG = new olc::Sprite("olc.png");
-        for (int y = 0; y < ScreenHeight(); y++)
-        {
-            for (int x = 0; x < ScreenWidth(); x++)
-            {
-                olc::Pixel p = sprBG->GetPixel(x,y);
-                if (p == olc::WHITE)
-                {
-                    olc::vi2d pt = {x,y};
-                    vSpots.emplace_back(pt);
-                }
-            }
-        }
+        sprBG = new olc::Sprite("doggy.png");
 
         return true;
     }
@@ -92,15 +79,14 @@ public:
 
         Clear(olc::BLACK);
 
-        int nSpotIndex = rand() % vSpots.size();
-        olc::vi2d RandCircle = vSpots[nSpotIndex];
+        olc::vi2d RandCircle = { rand() % ScreenWidth(), rand() % ScreenHeight() };
         
         if (CanAdd(RandCircle))
             AddCircle(RandCircle);
 
         for (auto &circle : vCircles)
         {
-            DrawCircle(circle.vPos, circle.fRadius);
+            FillCircle(circle.vPos, circle.fRadius, sprBG->GetPixel(circle.vPos));
             if (HitEdge(circle) || HitCircle(circle))
                 circle.bCanGrow = false;
             if (circle.bCanGrow)
@@ -113,8 +99,8 @@ public:
 
 int main()
 {
-    olcCirclePacking demo;
-    if (demo.Construct(640, 640, 1, 1))
+    olcCirclePackingPic demo;
+    if (demo.Construct(640, 556, 1, 1))
         demo.Start();
     return 0;
 }
