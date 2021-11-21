@@ -30,3 +30,6 @@ A collection of my self made code using the olcPixelGameEngine
 
 - **olcCirclePackingPic.cpp** Circle Packing routine as above but using a picture pixel colour to colour each circle.  It makes a nice looking image.
 <img src="/images/olcCirclePackingPic.png" alt="olcCirclePackingPic" width="400">
+
+- **olcHilbert.cpp** The Hilbert curve (also known as the Hilbert space-filling curve) is a continuous fractal space-filling curve first described by the German mathematician David Hilbert in 1891. Use the arrow keys to change the order from 1 to 9.  
+<img src="/images/olcHilbert.png" alt="olcHilbert" width="400">
