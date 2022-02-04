@@ -33,3 +33,6 @@ A collection of my self made code using the olcPixelGameEngine
 
 - **olcHilbert.cpp** The Hilbert curve (also known as the Hilbert space-filling curve) is a continuous fractal space-filling curve first described by the German mathematician David Hilbert in 1891. Use the arrow keys to change the order from 1 to 9.  
 <img src="/images/olcHilbert.png" alt="olcHilbert" width="400">
+
+- **olcFireworks.cpp** This is a simple fireworks program that shoots fireworks up and lets them explode.  It uses simple velocity, accelleration and gravity to move the fireworks.
+<img src="/images/olcFireworks.png" alt="olcFireworks" width="400">
