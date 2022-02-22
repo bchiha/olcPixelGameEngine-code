@@ -37,5 +37,5 @@ A collection of my self made code using the olcPixelGameEngine
 - **olcFireworks.cpp** This is a simple fireworks program that shoots fireworks up and lets them explode.  It uses simple velocity, accelleration and gravity to move the fireworks.
 <img src="/images/olcFireworks.png" alt="olcFireworks" width="400">
 
-- **olcPrimeSprial.cpp** When Prime numbers are displayed in a spiral, they form a pattern!  This program displays the patern and gives options to change the spiral size and look.
-<img src="/images/olcPrimeSprial.png" alt="olcPrimeSprial" width="400">
+- **olcPrimeSpiral.cpp** When Prime numbers are displayed in a spiral, they form a pattern!  This program displays the patern and gives options to change the spiral size and look.
+<img src="/images/olcPrimeSpiral.png" alt="olcPrimeSpiral" width="400">
