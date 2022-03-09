@@ -129,6 +129,8 @@ public:
         DrawString({ 50, 770 }, "      (<-) Decrease Gap, (->) Increase Gap", olc::GREEN, 2);
         FillRect({ 600, 20 }, { 150, 30 }, olc::BLUE);
         DrawString({ 610, 30 }, "GAP: " + std::to_string(gapSizes[gapIndex]), olc::GREEN, 2);
+        FillRect({ 40, 20 }, { 220, 30 }, olc::BLUE);
+        DrawString({ 50, 30 }, "COUNT: " + std::to_string(count), olc::GREEN, 2);
 
         return true;
     }
