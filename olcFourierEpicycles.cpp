@@ -43,7 +43,7 @@ private:
     {
     	// Open data file
     	float x, y;
-    	std::ifstream datafile (filename);  //datafile
+    	std::ifstream datafile ("./assets/"+filename);  //datafile
 
         vSignal.clear();
 

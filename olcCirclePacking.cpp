@@ -70,7 +70,7 @@ public:
         // Called once at the start, so create things here
         srand(time(NULL));
 
-        sprBG = new olc::Sprite("olc.png");
+        sprBG = new olc::Sprite("./assets/olc.png");
         for (int y = 0; y < ScreenHeight(); y++)
         {
             for (int x = 0; x < ScreenWidth(); x++)

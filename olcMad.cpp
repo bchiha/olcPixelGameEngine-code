@@ -39,7 +39,7 @@ public:
     bool OnUserCreate() override
     {
         // Open data file
-        datafile.open("maddata.txt");  //Open data pair file
+        datafile.open("./assets/maddata.txt");  //Open data pair file
         if (!datafile.is_open())
             return false;
         

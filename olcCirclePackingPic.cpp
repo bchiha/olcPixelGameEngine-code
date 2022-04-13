@@ -69,7 +69,7 @@ public:
         // Called once at the start, so create things here
         srand(time(NULL));
 
-        sprBG = new olc::Sprite("doggy.png");
+        sprBG = new olc::Sprite("./assets/doggy.png");
 
         return true;
     }
