@@ -50,3 +50,6 @@ A collection of my self made code using the olcPixelGameEngine
 
 - **olcAutonomousAgent.cpp** This program implements a steering mechanism where flies seek out the nearest food and avoid spiders. If a fly touches a spider, it dies. If any are let at the end, they seek out and settle on the large Poo. As it is all random the flies seem to have a mind of their own. **Note**, I was lazy on the spider physics so they just move in a random direction.
 <img src="/images/olcAutonomousAgent.png" alt="olcAutonomousAgent" width="400">
+
+- **olcMaze.cpp** This program generates a 25x12 Maze by using the Recursive Backtrack algorithm.  Watch it weave its way through the grid creating paths between walls.  When no more paths are available, the head moves back until it finds another path.  It finishes when all paths are complete.  Press SPACE to create a new maze.
+<img src="/images/olcMaze.png" alt="olcMaze" width="400">
