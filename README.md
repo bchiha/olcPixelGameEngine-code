@@ -53,3 +53,6 @@ A collection of my self made code using the olcPixelGameEngine
 
 - **olcMaze.cpp** This program generates a 25x12 Maze by using the Recursive Backtrack algorithm.  Watch it weave its way through the grid creating paths between walls.  When no more paths are available, the head moves back until it finds another path.  It finishes when all paths are complete.  Press SPACE to create a new maze.
 <img src="/images/olcMaze.png" alt="olcMaze" width="400">
+
+- **olcCellular.cpp** This program uses Elementary Cellular Automation to create simple and fun patterns.  Starting with one live cell at the top middle of the screen.  The rule is applied and each row displays the next life cycle.  Use the arrow keys to change the rule.
+- <img src="/images/olcCellular.png" alt="olcCellular" width="400">
