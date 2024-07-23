@@ -55,7 +55,7 @@ A collection of my self made code using the olcPixelGameEngine
 <img src="/images/olcMaze.png" alt="olcMaze" width="400">
 
 - **olcCellular.cpp** This program uses Elementary Cellular Automation to create simple and fun patterns.  Starting with one live cell at the top middle of the screen.  The rule is applied and each row displays the next life cycle.  Use the arrow keys to change the rule.
-- <img src="/images/olcCellular.png" alt="olcCellular" width="400">
+<img src="/images/olcCellular.png" alt="olcCellular" width="400">
 
 - **olcGLCDGraphic.cpp** This program helps with designing sprites for a 128x64 Graphical LCD Screen.  The Grid can be changed from 8x8 to 128x64.  When exported, the output is in Bytes used in Z80 Assembly programs.  It is designed for the TEC-1G Z80 Single board computer.  
-- <img src="/images/olcGLCDGraphic.png" alt="olcGLCDGraphic" width="400">
+<img src="/images/olcGLCDGraphic.png" alt="olcGLCDGraphic" width="400">
